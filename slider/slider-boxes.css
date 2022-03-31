@@ -1,0 +1,92 @@
+/* Scss Document */
+.grey-fade{    
+	float:left; width:100%;
+	background:#f6f6f6;
+}
+.bl-fade{    
+	float:left; width:100%;
+	background:#f6f6f6;
+}
+.pos-r {
+    position: relative!important;
+}
+.btmm{border-bottom:1px solid #ddd}
+.white {
+    #background: #fff;
+}
+.text-white {
+    color: #3a3a3a!important;
+}
+.text-gray {
+    color: #363636;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.separator {
+    width: 14%;
+    height: 3px;
+    margin: 1.2em auto 1em;
+    background: #ffc53a;
+}
+.one-slide {
+  border-radius: 3px;
+  font-size: 1.1rem;
+  margin:.2%;
+  border:0 solid #ddd;
+  height: auto;
+  box-sizing:border-box;
+}
+.one-slide img {
+  width: 100%;
+   border-radius:5px;
+}
+.carousel-controls .control {
+  position: absolute;
+  cursor: pointer;
+  top: 32%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color:#000;
+  z-index:99;
+}
+.prev {
+  left: -1.875rem;
+  color:#000;
+}
+.next {
+  right: -1.875rem;
+}
+.testimonial-carousel { 
+  &.slick-initialized { 
+    display: block; 
+  }
+  @media (max-width: 575px) {
+    .one-slide {
+	    height: 200px;
+	  }
+    img {
+  	    width: 40%;
+  	  }
+  }
+}
+
+
+.container{padding:0%!important;}
+.p-3{margin:0 auto!important; padding:0%!important;}
+
+.mt-5{1px !important}
+
+.padding_dv{float:left; width:100%; padding:1% 0% 1% 0%!important; line-height:32px!important;}
+.padding_dv a{color:#1a1a1a}
+.text-center{text-align:left!important; margin-left:5px;}
+
+
+
+
